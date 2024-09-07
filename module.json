@@ -1,0 +1,44 @@
+{
+  "description": "Compendiums pour Nightfell en français",
+  "id": "nightfell-compendiums",
+  "title": "Nightfell Compendiums",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "MrPadRPG",
+      "discord": "padrpg",
+      "url": "https://github.com/MrPadRpg/",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/MrPadRpg/nightfell-compendiums",
+  "packs": [
+    {
+      "name": "nightfell-spells",
+      "label": "Nightfell Spells",
+      "path": "packs/nightfell-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/MrPadRpg/nightfell-compendiums/master/module.json",
+  "download": "https://github.com/MrPadRpg/nightfell-compendiums/releases/latest/download/0.1.0.zip"
+}
